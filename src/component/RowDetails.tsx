@@ -1,9 +1,9 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import {InitPost} from "./ApiCall"
+import {InitData} from "./ApiCall";
 const RowDetails:React.FC = ()=>{
 
- const {state} = useLocation<InitPost>();
+ const {state} = useLocation<InitData>();
  ; 
   return(
       <div data-testid="details">

@@ -4,7 +4,7 @@ import {createMemoryHistory} from "history";
 import { render, screen } from '@testing-library/react';
 import RowDetails from "../component/RowDetails";
 
-test('renders learn react link', () => {
+test('api Details', () => {
     const history = createMemoryHistory();
       history.push("/RowDetails",{title:"",url:"",created_at:Date(),author:""})
   render(<Router history={history}>
